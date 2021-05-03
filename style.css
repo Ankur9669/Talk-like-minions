@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+}
+
+.background-image{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.place-over-image{
+    width: 100%;
+    top:0;
+    position: absolute;
+}
+
+#txt-translated{
+    display: block;
+    border: 2px solid black;
+    height: 3rem;
+    width: 90%;
+}
+
+#txt-translate{
+    display: block;
+    height: 3rem;
+    width: 90%;
+}
