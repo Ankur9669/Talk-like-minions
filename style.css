@@ -32,7 +32,7 @@
     background-color: #FEF08A;
     display: block;
     border: 2px solid black;
-    height: 3rem;
+    height: 4rem;
     padding: 1rem;
     width: 60%;
     margin-left: auto;
@@ -50,7 +50,7 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-    height: 3rem;
+    height: 4rem;
     width: 60%;
     border-radius: 2rem
 }
