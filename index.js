@@ -7,15 +7,10 @@ let urlToCall = "";
 let image = document.querySelector("#img");
 btn_translate.addEventListener("click", onClick);
 
+//Setting the size of image according to screen size
 window.addEventListener('load', () => {
-   // let contentHeight = contentOfPage.clientHeight;
     const minHeight = screen.height;
     console.log(minHeight);
-
-    // if(minHeight > contentHeight){
-    //     contentHeight = minHeight;
-    //    // footer.classList.add('bottom0');
-    // }
     image.height = screen.height;
   });
   
