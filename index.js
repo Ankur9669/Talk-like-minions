@@ -17,7 +17,6 @@ window.addEventListener('load', () => {
  //Functionality to perform on button click 
 function onClick()
 {
-    console.log("Yes");
     textEnteredByUser = txt_translate.value;
     constructUrl(textEnteredByUser);
     fetch(urlToCall)
