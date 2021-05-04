@@ -4,9 +4,21 @@ let btn_translate = document.querySelector("#btn-translate");
 let txt_translated = document.querySelector("#txt-translated");
 let textEnteredByUser = "";
 let urlToCall = "";
-
+let image = document.querySelector("#img");
 btn_translate.addEventListener("click", onClick);
 
+window.addEventListener('load', () => {
+   // let contentHeight = contentOfPage.clientHeight;
+    const minHeight = screen.height;
+    console.log(minHeight);
+
+    // if(minHeight > contentHeight){
+    //     contentHeight = minHeight;
+    //    // footer.classList.add('bottom0');
+    // }
+    image.height = screen.height;
+  });
+  
 function onClick()
 {
     console.log("Yes");
