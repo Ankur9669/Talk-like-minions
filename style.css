@@ -42,6 +42,7 @@
 }
 
 #txt-translate{
+    border: 2px solid black;
     color: #1E40AF;
     text-align: center;
     background-color: #FCD34D;
@@ -94,4 +95,21 @@
 
 .list-inline{
     display: inline;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.footer{
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+}
+
+.footer-text{
+    font-size: 1.7rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer .list-footer{
+    text-align: center;
 }
