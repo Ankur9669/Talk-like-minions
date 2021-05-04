@@ -27,17 +27,26 @@
 }
 
 #txt-translated{
+    color:#1D4ED8;
+    text-align: center;
+    background-color: #FEF08A;
     display: block;
     border: 2px solid black;
     height: 3rem;
+    padding: 1rem;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 2rem;    
+    font-size: 1.3rem;
 }
 
 #txt-translate{
+    color: #1E40AF;
+    text-align: center;
+    background-color: #FCD34D;
     padding: 1rem;
+    font-size: 1.3rem;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -49,7 +58,7 @@
 #btn-translate{
     display: block;
     margin: auto;
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding: 1rem 1rem;
